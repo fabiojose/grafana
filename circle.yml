@@ -19,6 +19,7 @@ machine:
 general:
   artifacts:
     - "./dist"
+    - "~/docker"
 dependencies:
   cache_directories:
     - "~/docker"
